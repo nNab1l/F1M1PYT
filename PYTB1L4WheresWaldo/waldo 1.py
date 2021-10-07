@@ -6,5 +6,5 @@ print(people)
 count = 0
 while count < len(people):
     if people[count] == "Waldo":
-        print("gevonden op positie "+ str(count))
+        print("gevonden op positie "+ str(count+1))
     count += 1
